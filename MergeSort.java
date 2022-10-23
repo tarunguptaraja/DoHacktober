@@ -1,5 +1,4 @@
-package algorithms;
-
+// timeComplexity O(nlogn)
 public class MergeSort {
 	
 	public static void mergeSort(int arr[], int l, int r){
@@ -27,6 +26,7 @@ public class MergeSort {
 	    i = 0;
 	    j = 0;
 	    k = l;
+		
 	    while (i < n1 && j < n2){
 	        if (L[i] <= R[j]){
 	            arr[k] = L[i];
